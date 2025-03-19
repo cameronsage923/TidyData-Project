@@ -1,6 +1,6 @@
 # Welcome to my Tidy Data Project!
 
-### Project Overview
+## Project Overview
 This project aims to clean up analyze, and visually represent a dataset using tidy data principles. My goal was to transform raw data from the Olympics dataset into a structured format that is easy to manipulate. The tidy data principles that guided my work are as follows:
 - Each variable has its own column.
 - Each observation is in its own row.
@@ -8,7 +8,7 @@ This project aims to clean up analyze, and visually represent a dataset using ti
 
 I adhered to these principles to ensure consistency, efficiency, and simplicity in my data analysis. 
 
-### Instructions to Run the Notebook 💻
+## Instructions to Run the Notebook 💻
 Follow the steps below to run the notebook:
 1. Download (or clone) this repository to your local machine.
 2. Make sure you have installed Python!
@@ -18,7 +18,7 @@ Follow the steps below to run the notebook:
 5. Open the Jupyter notebook environment and find the project directory.
 6. Run the notebook cells in order to clean, analyze, and visualize the data in my project! 😊
 
-### Dataset Description 🏅
+## Dataset Description 🏅
 The Olympics dataset I used originates from the 2008 Summer Olympics dataset by EDJNet (European Data Journalism Network), and contains information about Olympic medalists, their respective sports, and the type of medals they won. 
 
 I used the following pre-processing steps:
@@ -27,10 +27,10 @@ I used the following pre-processing steps:
 3. Assigned unique identifiers (IDs) to each medalist and sport using .groupby().ngroup()
 4. Finally, I handled the numerous missing values by using .dropna() to remove incompelte entries.
 
-### References 📖
+## References 📖
 Please see the [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf)  by Hadley Wickham and the [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  for more reading on tidy data and data wrangling. 
 
-### Some Visual Examples from My Project
+## Some Visual Examples from My Project
 1. Medal Count by Sport:
    
 ![image](https://github.com/user-attachments/assets/0f579052-09de-4007-a9a5-ff1e1d31492f)
