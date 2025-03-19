@@ -12,12 +12,14 @@ I adhered to these principles to ensure consistency, efficiency, and simplicity 
 Follow the steps below to run the notebook:
 1. Download (or clone) this repository to your local machine.
 2. Make sure you have installed Python!
-3. Run the following command in your terminal: pip install pandas matplotlib seaborn
-4. Open the Jupyter notebook environment and find the project directory.
-5. Run the notebook cells in sequential order to clean, analyse, and visualize the data in my project! 😊
+3. Run the following command in your terminal to install the relevant dependencies (if not already installed):
+    ```sh
+   pip install pandas matplotlib seaborn
+5. Open the Jupyter notebook environment and find the project directory.
+6. Run the notebook cells in order to clean, analyze, and visualize the data in my project! 😊
 
 ### Dataset Description 🏅
-The Olympics dataset I used orignates from the 2008 Summer Olympics dataset by EDJNet (European Data Journalism Network), and contains information about Olympic medalists, their respective sports, and the type of medals they won. 
+The Olympics dataset I used originates from the 2008 Summer Olympics dataset by EDJNet (European Data Journalism Network), and contains information about Olympic medalists, their respective sports, and the type of medals they won. 
 
 I used the following pre-processing steps:
 1. I melted the dataset. More specifically, I reformatted the wide-form dataset into long-form with the melt() function.
