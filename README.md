@@ -4,7 +4,7 @@
 This project aims to clean up analyze, and visually represent a dataset using tidy data principles. My goal was to transform raw data from the Olympics dataset into a structured format that is easy to manipulate. The tidy data principles that guided my work are as follows:
 - Each variable has its own column.
 - Each observation is in its own row.
-- Each type of observational unit fors a separate table.
+- Each type of observational unit forms a separate table.
 
 I adhered to these principles to ensure consistency, efficiency, and simplicity in my data analysis. 
 
