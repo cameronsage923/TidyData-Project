@@ -1,5 +1,5 @@
 
-📊 Tidy Data Project – Olympic Medalist Analysis
+# 📊 Tidy Data Project – Olympic Medalist Analysis
 Welcome! This is a data cleaning and analysis project built using Python and Pandas, focused on applying tidy data principles to transform and visualize Olympic medalist data from the 2008 Summer Games.
 
 # 📊 Project Overview
