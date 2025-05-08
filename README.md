@@ -1,36 +1,28 @@
-# Welcome to my Tidy Data Project!
 
-## Project Overview
-This project aims to clean up analyze, and visually represent a dataset using tidy data principles. My goal was to transform raw data from the Olympics dataset into a structured format that is easy to manipulate. The tidy data principles that guided my work are as follows:
-- Each variable has its own column.
-- Each observation is in its own row.
-- Each type of observational unit forms a separate table.
+📊 Tidy Data Project – Olympic Medalist Analysis
+Welcome! This is a data cleaning and analysis project built using Python and Pandas, focused on applying tidy data principles to transform and visualize Olympic medalist data from the 2008 Summer Games.
 
-I adhered to these principles to ensure consistency, efficiency, and simplicity in my data analysis. 
+# 📊 Project Overview
+This project demonstrates how raw data can be reshaped, cleaned, and analyzed using the core principles of tidy data:
 
-## Instructions to Run the Notebook 💻
-Follow the steps below to run the notebook:
-1. Download (or clone) this repository to your local machine.
-2. Make sure you have installed Python!
-3. Run the following command in your terminal to install the relevant dependencies (if not already installed):
-    ```sh
-   pip install pandas matplotlib seaborn
-5. Open the Jupyter notebook environment and find the project directory.
-6. Run the notebook cells in order to clean, analyze, and visualize the data in my project! 😊
+- Each variable is in its own column
 
-## Dataset Description 🏅
-The Olympics dataset I used originates from the 2008 Summer Olympics dataset by EDJNet (European Data Journalism Network), and contains information about Olympic medalists, their respective sports, and the type of medals they won. 
+- Each observation is in its own row
 
-I used the following pre-processing steps:
-1. I melted the dataset. More specifically, I reformatted the wide-form dataset into long-form with the melt() function.
-2. I cleaned the strings by removing any unwanted characters using .str.replace(), and separated any combined columns using .str.split()
-3. Assigned unique identifiers (IDs) to each medalist and sport using .groupby().ngroup()
-4. Finally, I handled the numerous missing values by using .dropna() to remove incompelte entries.
+- Each type of observational unit forms a separate table
 
-## References 📖
-Please see the [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf)  by Hadley Wickham and the [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  for more reading on tidy data and data wrangling. 
+The dataset—originally messy and wide-form—was transformed into a clean, long-form structure for analysis. The end result is a well-organized dataset ready for insightful visualizations and exploratory analysis.
 
-## Some Visual Examples from My Project
+# 🧠 Skills & Technologies Used
+- Python
+- pandas
+- matplotlib
+- seaborn
+- Jupyter Notebook
+- Data wrangling & tidy data theory
+
+# 📸 Project Visuals
+Medal Count by Sport:
 1. Medal Count by Sport:
    
 ![image](https://github.com/user-attachments/assets/0f579052-09de-4007-a9a5-ff1e1d31492f)
@@ -39,5 +31,46 @@ Please see the [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf)  b
    
 ![image](https://github.com/user-attachments/assets/bf2ec66b-3305-41f7-b364-96d829a6d2e2)
 
+#🚀 Run the Project Locally
+First, ensure you have Python 3.8+ and Jupyter Notebook installed. Then:
 
+```bash
+    Copy code
+    pip install pandas matplotlib seaborn
+```
+Next:
+
+1. Clone this repository or download the .ipynb file
+
+2. Open the notebook in Jupyter
+
+3. Run the cells sequentially to clean, transform, and visualize the dataset
+
+# 📄 Dataset Details
+This project uses a dataset from the 2008 Summer Olympics, made available by the European Data Journalism Network (EDJNet). The dataset includes:
+
+- Medalists and their sports
+- Country, gender, and medal type
+- Additional attributes like event and discipline
+
+# 🛠 Key Cleaning Steps
+- Used melt() to reshape wide-form data into tidy long-form
+
+- Cleaned strings and split combined values with .str.replace() and .str.split()
+
+- Created unique IDs using groupby().ngroup()
+
+- Removed incomplete rows using .dropna()
+
+📚 References
+- Tidy Data – Hadley Wickham
+- Pandas Cheat Sheet
+
+
+
+
+
+
+
+   
 
